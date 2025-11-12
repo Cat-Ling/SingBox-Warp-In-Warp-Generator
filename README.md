@@ -1,0 +1,2 @@
+I basically ported my [bash script](https://github.com/Cat-Ling/sing-box/blob/main/create.sh) (which relied on another bash script, this is what I wanted to fix) to a standalone Go program, i had a use case where using curl might not be possible to fetch and run a bash script.
+Note: I use linux, so while I built the program for multiple platforms for the heck of it, there's no way for me to check if the generated config is actually going to work for others.
